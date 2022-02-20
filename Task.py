@@ -88,7 +88,7 @@ sales = {
 for value in sales.values():
     print(value)
     
-#Python program to find the average of 10 numbers using while loop.
+#10.Python program to find the average of 10 numbers using while loop.
 
 n = 20
 total_numbers = n
