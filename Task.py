@@ -45,9 +45,9 @@ arr=[1,2,3,4,5]
 y=5
 
 def binary(arr,l,z,y):
-    if r>=l:
+    if z>=l:
         mid = l+(z-l)//2
-        if arr[mid]==x:
+        if arr[mid]==y:
             return mid
         elif arr[mid] > y:
             return binary(arr,l,mid-1,y)
